@@ -1,0 +1,65 @@
+body{
+    margin: 0 200px;
+    border:  solid rgb(20, 15, 15);
+}
+
+div.head{
+    background-color: rgb(78, 16, 129);
+    color: white;
+    position: relative;
+    padding: 35px 0;
+}
+
+.head h2,h3{
+    margin: 25px 350px;
+}
+
+div.photo{
+    top: 70px;
+    left: 70px;
+    position: absolute;
+}
+
+.About{
+    margin-top: 100px;
+    display: flex;
+}
+
+.About h2{
+    margin-top: 0;
+}
+
+.About   > div {
+    background-color: #ffffff;
+    margin: 0 20px;
+    padding: 20px;
+}
+
+.line{
+    line-height: 1.6;
+    display: flex;
+}
+
+.line   > div {
+    background-color: #ffffff;
+    width: 135px;
+    margin: 0 20px;
+    padding: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 160px;
+    padding: 30px;
+  }
+  
+  .grid-container > div {
+    font-size: 30px;
+  }
+
+  li{
+      font-size: 20px;
+      margin-left: 15px;
+  }
+
